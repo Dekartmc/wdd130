@@ -35,9 +35,7 @@
 					<p>Phone: (999) 999-9999</p>
 					<p>Email: <a href="mailto:">contact@wrco.com</a></p>
 				</div>
-				<div class="card">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.913726363117!2d-111.91750726922798!3d40.40946725261725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7f1f6ade43a7%3A0x30c638a50ceaa5bd!2sSilver%20Bear%20Swim%20School!5e0!3m2!1sen!2sus!4v1749440510054!5m2!1sen!2sus" width="300" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
-				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.913726363117!2d-111.91750726922798!3d40.40946725261725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7f1f6ade43a7%3A0x30c638a50ceaa5bd!2sSilver%20Bear%20Swim%20School!5e0!3m2!1sen!2sus!4v1749440510054!5m2!1sen!2sus" width="300" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border: 0;"></iframe>
 			</section>
 			<section>
 				<div class="title">
@@ -60,7 +58,7 @@
 			</section>
 			<section>
 				<h2>Send Us A Message</h2>
-				<form action="" class="message">
+				<form action="submit" class="message">
 					<div class="row">
 						<div class="column">
 							<label for="fname">Name: </label><br>
@@ -74,16 +72,16 @@
 					<div style="padding: 10px;">
 						<label>Purpose of the message: </label>
 						<div>
-							<input type="radio" id="inquiry" name="inquiry" value="inquiry" checked />
-							<label for="huey">General Inquiry</label>
+							<input type="radio" id="inquiry" name="inquiry" value="inquiry" checked>
+							<label for="inquiry">General Inquiry</label>
 						</div>
 						<div>
-							<input type="radio" id="reservation" name="reservation" value="reservation" />
-							<label for="dewey">Reservation Question</label>
+							<input type="radio" id="reservation" name="reservation" value="reservation">
+							<label for="reservation">Reservation Question</label>
 						</div>
 						<div>
-							<input type="radio" id="suggestion" name="suggestion" value="suggestion" />
-							<label for="louie">Website Suggestion</label>
+							<input type="radio" id="suggestion" name="suggestion" value="suggestion">
+							<label for="suggestion">Website Suggestion</label>
 						</div>
 					</div>
 					<div style="padding: 10px;">
@@ -91,7 +89,7 @@
 						<textarea id="message" name="message" placeholder="Write something.."></textarea>
 					</div>
 					<div style="padding: 10px;">
-						<input type="checkbox" id="subscribe" name="subscribe"/>
+						<input type="checkbox" id="subscribe" name="subscribe">
 						<label for="subscribe">Please subscribe me to the monthly newsletter</label>
 					</div>
 					<input type="submit" value="Send Message" class="submit">

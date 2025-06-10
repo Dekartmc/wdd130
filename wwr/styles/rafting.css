@@ -159,6 +159,9 @@ header h1 {
 	grid-template-columns: 1fr 1fr;
 	column-gap: 10px;
 }
+iframe {
+	border: 0;
+}
 .ourteam {
 	margin: 5px;
 	display: grid;

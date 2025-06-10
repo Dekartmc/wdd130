@@ -50,8 +50,8 @@ header img {
 	height: auto;
 }
 header h1 {
-		font-size: 2rem;
-		color: var(--accent2-color);
+	font-size: 2rem;
+	color: var(--accent2-color);
 }
 .navigation {
 	display: flex;
@@ -143,6 +143,72 @@ header h1 {
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+}
+
+.title {
+	margin: 2rem 1.2rem;
+}
+.title p {
+	text-align: center;
+	opacity: 0.8;
+}
+.reachourteam {
+	display: grid;
+	margin: 10px auto;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 10px;
+}
+.ourteam {
+	margin: 5px;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 10px;
+}
+.ourteam figure {
+		text-align: center;
+}
+.ourteam figure img {
+	height: 250px;
+	border-radius: 10px;
+}
+.card {
+	height: 300px;
+	padding: 1.8rem;
+	border-radius: 20px;
+	position: relative;
+	border: 2px solid #c3c6ce;
+}
+.message {
+	padding: 0.8rem;
+	margin: 2rem 5rem;
+	border-radius: 10px;
+	border: 2px solid var(--accent2-color);
+}
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.row {
+	display: flex;
+	column-gap: 10px;
+}
+.column {
+	width: 50%;
+  padding: 10px;
+}
+.submit {
+	padding: 5px 20px;
+	border-radius: 10px;
+	color: var(--accent2-color);
+	background-color: var(--accent1-color);
 }
 
 footer {
